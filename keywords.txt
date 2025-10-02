@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map Switch
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Switch  KEYWORD1	Switch
+SwitchStateAnalyzer KEYWORD1    SwitchStateAnalyzer
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# SwitchStateAnalyzer
+getReadCycleMillis	KEYWORD2
+reset	KEYWORD2
+getNumAnalyzerStates	KEYWORD2
+getNumSwitchStates	KEYWORD2
+getAnalyzerState	KEYWORD2
+
+# Switch
+getRawState	KEYWORD2
+configurePin	KEYWORD2
+getState	KEYWORD2
+getMappedState	KEYWORD2
+setMapping	KEYWORD2
+hasChanged	KEYWORD2
+getPrevState	KEYWORD2
+getPrevMappedState	KEYWORD2
+reset	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SW_STATE_UNDEFINED  LITERAL1
+SW_STATE_DEFAULT_OFF    LITERAL1
+SW_STATE_DEFAULT_ON LITERAL1
