@@ -4,7 +4,7 @@ A library for handling any kinds of digital inputs from switches, push buttons, 
 
 The main target was to get an easy understandable code and the chance to concentrate on the real functionality of the project. All functionality for the digital inputs is encapsulated in a separate class and only changes of the input need attention.
 
-Different digital inputs can be handled completely independent in parallel with Switch objects and the raw digital inputs and the resulting outputs are named „states“ of a switch.
+Different digital inputs can be handled completely independent in parallel with individual Switch objects. The raw digital inputs and the resulting outputs are named „states“ of a switch.
 
 Advantages
 
